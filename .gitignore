@@ -1,0 +1,166 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ppPackages/
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directory
+.vscode/
+
+# Node.js files
+node_modules/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# Project specific
+.vscode/
+*.plist
+*.sqlite
+*.tmp
+
+# Log files
+*.log
+
+# WebAPI settings
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# Entity Framework Migrations
+Migrations/
+
+# Visual Studio
+.vs/
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+
+# Resharper
+_ReSharper.Caches/
+
+# Coverage Reports
+coverage/
+*.coveragexml
+
+# Package directories
+packages/
+!packages/build/
+!packages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code
+.history/
+
+# Visual Studio temp files
+.vs/
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# NCrunch
+*.ncrunchproject
+*.ncrunchsolution
+
+# IDEs and text editor files
+.idea/
+*.sln.iml
+*.userprefs
+*.vscode/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Azure DevOps
+*.vscode/*
+!**/.gitkeep
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of the new restore logic in NuGet
+packages/*
+!packages/build/
+!packages/repositories.config
+
+# Azure DevOps
+*.vscode/*
+!**/.gitkeep
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Rider
+.idea/
+*.sln.iml
