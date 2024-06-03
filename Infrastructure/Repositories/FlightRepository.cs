@@ -15,7 +15,10 @@ namespace Infrastructure.Repositories
             _dataContext = dataContext;
             _rolesService=rolesService;
         }
-        public async Task<IEnumerable<Flight>> GetFlightsListAsync()=>await _dataContext.Flights.ToListAsync();
+        public async Task<IEnumerable<Flight>> GetFlightsListAsync()
+        {
+           return await _dataContext.Flights.ToListAsync();
+        }
         public async Task<string> AddFlightsDataAsync(Flight flight, string UserCode)
         {
             try

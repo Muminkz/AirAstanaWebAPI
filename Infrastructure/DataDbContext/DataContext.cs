@@ -1,11 +1,6 @@
-﻿using Application.Dtos;
-using Domain.Entities;
+﻿using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using System.Reflection.Emit;
-
 namespace Infrastructure.DataDbContext
 {
     public class DataContext:DbContext

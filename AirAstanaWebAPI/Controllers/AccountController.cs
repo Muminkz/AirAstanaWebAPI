@@ -16,8 +16,10 @@ namespace AirAstanaWebAPI.Controllers
             _configuration = configuration;
         }
         [HttpPost("GetAuthorizationToken")]
-        public async Task<string> GetAuthorizationToken(string UserName, string Password)=> await _userService.GetAuthorizationToken(UserName, Password, _configuration["ApplicationSettings:SecretKey"]);
+        public async Task<string> GetAuthorizationToken(string UserName, string Password)=> await _userService.GetAuthorizationToken(UserName, Password, "77777777_VIP_KAZAKH_VIP_777777777" /*_configuration["ApplicationSettings:SecretKey"]*/);
         [HttpPost("Registration")]
         public async Task<string> Registration(User user) => await _userService.Registration(user);
+        [HttpPost("GetStr")]
+        public async Task<string> GetStr() => "sdsdsdssdsdsd";
     }
 }
